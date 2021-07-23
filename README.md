@@ -15,7 +15,7 @@ npm install
 - Run on the terminal
 
 ```sh
-npm run serve
+npm run dev
 ```
 
 - Create a tampermonkey script containing ([file](devTamperMonkeyScript.js)):
@@ -28,6 +28,7 @@ npm run serve
 // @include     *
 // @version     1
 // @require     http://localhost:1234/index.js
+//              or whatever url the parcel server is running at
 // ==/UserScript==
 ```
 
