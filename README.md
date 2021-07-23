@@ -1,0 +1,1 @@
+# Disboard tampermonkey template script
